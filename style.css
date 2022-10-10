@@ -1,7 +1,45 @@
+body {
+    margin: 0;
+}
+
+.page {
+    width: 1000px;
+    margin: 65px auto 0;
+}
+
 span {
     color: #89C5CC;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 main {
-    flexbox;
+    display: flex;
+}
+
+button {
+    background : #69B99D;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    border: 0;
+    width: 182px;
+    padding: 14px 32px;
+}
+
+whats {
+    width: 24px;
 }
